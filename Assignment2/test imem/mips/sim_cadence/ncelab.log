@@ -1,0 +1,137 @@
+
+---
+
+ncelab(64): 14.10-s007: (c) Copyright 1995-2014 Cadence Design Systems, Inc.
+TOOL:	ncelab(64)	14.10-s007: Started on Jan 11, 2016 at 23:45:06 PST
+ncelab
+    -sv -work
+    work
+    -64
+    -mess
+    -64bit
+    -access +R+W
+    -APPEND_LOG
+    WORK.tb_top:module
+
+ncelab: *F,ILSVP: illegal SVPERF specification (-work).
+TOOL:	ncelab(64)	14.10-s007: Exiting on Jan 11, 2016 at 23:45:06 PST  (total: 00:00:00)
+
+---
+
+ncelab(64): 14.10-s007: (c) Copyright 1995-2014 Cadence Design Systems, Inc.
+TOOL:	ncelab(64)	14.10-s007: Started on Jan 11, 2016 at 23:45:19 PST
+ncelab
+    -work work
+    -64
+    -mess
+    -64bit
+    -access +R+W
+    -APPEND_LOG
+    WORK.tb_top:module
+
+	Elaborating the design hierarchy:
+		Caching library 'work' ....... Done
+     $readmemh("$verif/imem.h", mips.imem_inst.RAM);
+                                                 |
+ncelab: *W,MEMODR (../verif/tb_top.sv,23|49): $readmem default memory order incompatible with IEEE1364.
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		work.imem:module <0x7ec4fa9b>
+			streams:   1, words:   236
+		work.processor:module <0x1655e68b>
+			streams:   2, words:   296
+		work.tb_top:module <0x667612ae>
+			streams:   8, words:  3654
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		             Instances  Unique
+		Modules:             3       3
+		Registers:           8       8
+		Scalar wires:        2       -
+		Vectored wires:      4       -
+		Always blocks:       2       2
+		Initial blocks:      4       4
+		Cont. assignments:   1       1
+		Pseudo assignments:  4       4
+	Writing initial simulation snapshot: work.tb_top:module
+TOOL:	ncelab(64)	14.10-s007: Exiting on Jan 11, 2016 at 23:45:19 PST  (total: 00:00:00)
+
+---
+
+ncelab(64): 14.10-s007: (c) Copyright 1995-2014 Cadence Design Systems, Inc.
+TOOL:	ncelab(64)	14.10-s007: Started on Jan 11, 2016 at 23:47:02 PST
+ncelab
+    -work work
+    -64
+    -mess
+    -64bit
+    -access +R+W
+    -APPEND_LOG
+    WORK.tb_top:module
+
+	Elaborating the design hierarchy:
+		Caching library 'work' ....... Done
+     $readmemh("$verif/imem.h", mips.imem_inst.RAM);
+                                                 |
+ncelab: *W,MEMODR (../verif/tb_top.sv,23|49): $readmem default memory order incompatible with IEEE1364.
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		work.imem:module <0x7ec4fa9b>
+			streams:   1, words:   236
+		work.processor:module <0x1655e68b>
+			streams:   2, words:   296
+		work.tb_top:module <0x667612ae>
+			streams:   8, words:  3654
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		             Instances  Unique
+		Modules:             3       3
+		Registers:           8       8
+		Scalar wires:        2       -
+		Vectored wires:      4       -
+		Always blocks:       2       2
+		Initial blocks:      4       4
+		Cont. assignments:   1       1
+		Pseudo assignments:  4       4
+	Writing initial simulation snapshot: work.tb_top:module
+TOOL:	ncelab(64)	14.10-s007: Exiting on Jan 11, 2016 at 23:47:02 PST  (total: 00:00:00)
+
+---
+
+ncelab(64): 14.10-s007: (c) Copyright 1995-2014 Cadence Design Systems, Inc.
+TOOL:	ncelab(64)	14.10-s007: Started on Jan 11, 2016 at 23:48:56 PST
+ncelab
+    -work work
+    -64
+    -mess
+    -64bit
+    -access +R+W
+    -APPEND_LOG
+    WORK.tb_top:module
+
+	Elaborating the design hierarchy:
+		Caching library 'work' ....... Done
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		work.imem:module <0x7ec4fa9b>
+			streams:   1, words:   236
+		work.processor:module <0x1655e68b>
+			streams:   2, words:   296
+		work.tb_top:module <0x76f5ebc9>
+			streams:   8, words:  3654
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		             Instances  Unique
+		Modules:             3       3
+		Registers:           8       8
+		Scalar wires:        2       -
+		Vectored wires:      4       -
+		Always blocks:       2       2
+		Initial blocks:      4       4
+		Cont. assignments:   1       1
+		Pseudo assignments:  4       4
+	Writing initial simulation snapshot: work.tb_top:module
+TOOL:	ncelab(64)	14.10-s007: Exiting on Jan 11, 2016 at 23:48:56 PST  (total: 00:00:00)

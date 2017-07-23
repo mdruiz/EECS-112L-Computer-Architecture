@@ -1,0 +1,10 @@
+DEFINE std             /ecelib/linware/cadence/INCISIV/tools.lnx86/inca/files/STD 
+DEFINE synopsys        /ecelib/linware/cadence/INCISIV/tools.lnx86/inca/files/SYNOPSYS
+DEFINE ieee            /ecelib/linware/cadence/INCISIV/tools.lnx86/inca/files/IEEE
+DEFINE ambit           /ecelib/linware/cadence/INCISIV/tools.lnx86/inca/files/AMBIT
+DEFINE vital_memory    /ecelib/linware/cadence/INCISIV/tools.lnx86/inca/files/VITAL_MEMORY
+DEFINE ncutils         /ecelib/linware/cadence/INCISIV/tools.lnx86/inca/files/NCUTILS
+DEFINE ncinternal      /ecelib/linware/cadence/INCISIV/tools.lnx86/inca/files/NCINTERNAL
+DEFINE ncmodels        /ecelib/linware/cadence/INCISIV/tools.lnx86/inca/files/NCMODELS
+DEFINE cds_assertions  /ecelib/linware/cadence/INCISIV/tools.lnx86/inca/files/CDS_ASSERTIONS
+DEFINE work work

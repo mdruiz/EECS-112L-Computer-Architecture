@@ -1,0 +1,140 @@
+ncvhdl(64): 14.10-s007: (c) Copyright 1995-2014 Cadence Design Systems, Inc.
+TOOL:	ncvhdl(64)	14.10-s007: Started on Jan 11, 2016 at 23:43:09 PST
+ncvhdl
+    -work work
+    -64
+    -update
+    -mess
+    -f ../design/rtl.cfg
+        /users/ugrad2/2012/spring/pooriam/files/112L/questa/design/imem.v
+        /users/ugrad2/2012/spring/pooriam/files/112L/questa/design/processor.v
+
+/users/ugrad2/2012/spring/pooriam/files/112L/questa/design/imem.v:
+module imem(input  logic [5:0]  a,
+|
+ncvhdl_p: *E,EXPACE (/users/ugrad2/2012/spring/pooriam/files/112L/questa/design/imem.v,1|0): expecting a library unit [11.1].
+module imem(input  logic [5:0]  a,
+                             |
+ncvhdl_p: *E,BLCOOR (/users/ugrad2/2012/spring/pooriam/files/112L/questa/design/imem.v,1|29): based literal character not less than the base (']') [13.4.2].
+module imem(input  logic [5:0]  a,
+                              |
+ncvhdl_p: *E,BLCOOR (/users/ugrad2/2012/spring/pooriam/files/112L/questa/design/imem.v,1|30): based literal character not less than the base (' ') [13.4.2].
+module imem(input  logic [5:0]  a,
+                               |
+ncvhdl_p: *E,BLCOOR (/users/ugrad2/2012/spring/pooriam/files/112L/questa/design/imem.v,1|31): based literal character not less than the base (' ') [13.4.2].
+module imem(input  logic [5:0]  a,
+                                |
+ncvhdl_p: *E,BLCOOR (/users/ugrad2/2012/spring/pooriam/files/112L/questa/design/imem.v,1|32): based literal character not less than the base ('A') [13.4.2].
+module imem(input  logic [5:0]  a,
+                                 |
+ncvhdl_p: *E,BLCOOR (/users/ugrad2/2012/spring/pooriam/files/112L/questa/design/imem.v,1|33): based literal character not less than the base (',') [13.4.2].
+module imem(input  logic [5:0]  a,
+                                  |
+ncvhdl_p: *E,BLCOOR (/users/ugrad2/2012/spring/pooriam/files/112L/questa/design/imem.v,1|34): based literal character not less than the base ('LF') [13.4.2].
+            output logic [7:0] rd);
+                             |
+ncvhdl_p: *E,BLCOOR (/users/ugrad2/2012/spring/pooriam/files/112L/questa/design/imem.v,2|29): based literal character not less than the base (']') [13.4.2].
+            output logic [7:0] rd);
+                              |
+ncvhdl_p: *E,BLCOOR (/users/ugrad2/2012/spring/pooriam/files/112L/questa/design/imem.v,2|30): based literal character not less than the base (' ') [13.4.2].
+            output logic [7:0] rd);
+                               |
+ncvhdl_p: *E,BLCOOR (/users/ugrad2/2012/spring/pooriam/files/112L/questa/design/imem.v,2|31): based literal character not less than the base ('R') [13.4.2].
+            output logic [7:0] rd);
+                                |
+ncvhdl_p: *E,BLCOOR (/users/ugrad2/2012/spring/pooriam/files/112L/questa/design/imem.v,2|32): based literal character not less than the base ('D') [13.4.2].
+            output logic [7:0] rd);
+                                 |
+ncvhdl_p: *E,BLCOOR (/users/ugrad2/2012/spring/pooriam/files/112L/questa/design/imem.v,2|33): based literal character not less than the base (')') [13.4.2].
+            output logic [7:0] rd);
+                                  |
+ncvhdl_p: *E,BLCOOR (/users/ugrad2/2012/spring/pooriam/files/112L/questa/design/imem.v,2|34): based literal character not less than the base (';') [13.4.2].
+            output logic [7:0] rd);
+                                   |
+ncvhdl_p: *E,BLCOOR (/users/ugrad2/2012/spring/pooriam/files/112L/questa/design/imem.v,2|35): based literal character not less than the base ('LF') [13.4.2].
+  logic [7:0] RAM[63:0];
+            |
+ncvhdl_p: *E,BLCOOR (/users/ugrad2/2012/spring/pooriam/files/112L/questa/design/imem.v,4|12): based literal character not less than the base (']') [13.4.2].
+  logic [7:0] RAM[63:0];
+             |
+ncvhdl_p: *E,BLCOOR (/users/ugrad2/2012/spring/pooriam/files/112L/questa/design/imem.v,4|13): based literal character not less than the base (' ') [13.4.2].
+  logic [7:0] RAM[63:0];
+              |
+ncvhdl_p: *E,BLCOOR (/users/ugrad2/2012/spring/pooriam/files/112L/questa/design/imem.v,4|14): based literal character not less than the base ('R') [13.4.2].
+  logic [7:0] RAM[63:0];
+               |
+ncvhdl_p: *E,BLCOOR (/users/ugrad2/2012/spring/pooriam/files/112L/questa/design/imem.v,4|15): based literal character not less than the base ('A') [13.4.2].
+  logic [7:0] RAM[63:0];
+                |
+ncvhdl_p: *E,BLCOOR (/users/ugrad2/2012/spring/pooriam/files/112L/questa/design/imem.v,4|16): based literal character not less than the base ('M') [13.4.2].
+  logic [7:0] RAM[63:0];
+                 |
+ncvhdl_p: *E,BLCOOR (/users/ugrad2/2012/spring/pooriam/files/112L/questa/design/imem.v,4|17): based literal character not less than the base ('[') [13.4.2].
+//      $readmemh("memfile.dat",RAM); // initialize memory
+        |
+ncvhdl_p: *E,UNKCHR (/users/ugrad2/2012/spring/pooriam/files/112L/questa/design/imem.v,8|8): unrecognizable character '$' [13.2].
+
+ncvhdl_p: *E,UXPEOF (/users/ugrad2/2012/spring/pooriam/files/112L/questa/design/imem.v,13): unexpected end of file.
+	errors: 22, warnings: 0
+/users/ugrad2/2012/spring/pooriam/files/112L/questa/design/processor.v:
+module processor(input clock, input reset);
+|
+ncvhdl_p: *E,EXPACE (/users/ugrad2/2012/spring/pooriam/files/112L/questa/design/processor.v,2|0): expecting a library unit [11.1].
+    logic [5:0] addr;
+              |
+ncvhdl_p: *E,BLCOOR (/users/ugrad2/2012/spring/pooriam/files/112L/questa/design/processor.v,4|14): based literal character not less than the base (']') [13.4.2].
+    logic [5:0] addr;
+               |
+ncvhdl_p: *E,BLCOOR (/users/ugrad2/2012/spring/pooriam/files/112L/questa/design/processor.v,4|15): based literal character not less than the base (' ') [13.4.2].
+    logic [5:0] addr;
+                |
+ncvhdl_p: *E,BLCOOR (/users/ugrad2/2012/spring/pooriam/files/112L/questa/design/processor.v,4|16): based literal character not less than the base ('A') [13.4.2].
+    logic [5:0] addr;
+                 |
+ncvhdl_p: *E,BLCOOR (/users/ugrad2/2012/spring/pooriam/files/112L/questa/design/processor.v,4|17): based literal character not less than the base ('D') [13.4.2].
+    logic [5:0] addr;
+                  |
+ncvhdl_p: *E,BLCOOR (/users/ugrad2/2012/spring/pooriam/files/112L/questa/design/processor.v,4|18): based literal character not less than the base ('D') [13.4.2].
+    logic [5:0] addr;
+                   |
+ncvhdl_p: *E,BLCOOR (/users/ugrad2/2012/spring/pooriam/files/112L/questa/design/processor.v,4|19): based literal character not less than the base ('R') [13.4.2].
+    logic [5:0] addr;
+                    |
+ncvhdl_p: *E,BLCOOR (/users/ugrad2/2012/spring/pooriam/files/112L/questa/design/processor.v,4|20): based literal character not less than the base (';') [13.4.2].
+    logic [5:0] addr;
+                     |
+ncvhdl_p: *E,BLCOOR (/users/ugrad2/2012/spring/pooriam/files/112L/questa/design/processor.v,4|21): based literal character not less than the base ('LF') [13.4.2].
+    logic [7:0] rdData;
+              |
+ncvhdl_p: *E,BLCOOR (/users/ugrad2/2012/spring/pooriam/files/112L/questa/design/processor.v,5|14): based literal character not less than the base (']') [13.4.2].
+    logic [7:0] rdData;
+               |
+ncvhdl_p: *E,BLCOOR (/users/ugrad2/2012/spring/pooriam/files/112L/questa/design/processor.v,5|15): based literal character not less than the base (' ') [13.4.2].
+    logic [7:0] rdData;
+                |
+ncvhdl_p: *E,BLCOOR (/users/ugrad2/2012/spring/pooriam/files/112L/questa/design/processor.v,5|16): based literal character not less than the base ('R') [13.4.2].
+    logic [7:0] rdData;
+                 |
+ncvhdl_p: *E,BLCOOR (/users/ugrad2/2012/spring/pooriam/files/112L/questa/design/processor.v,5|17): based literal character not less than the base ('D') [13.4.2].
+    logic [7:0] rdData;
+                  |
+ncvhdl_p: *E,BLCOOR (/users/ugrad2/2012/spring/pooriam/files/112L/questa/design/processor.v,5|18): based literal character not less than the base ('D') [13.4.2].
+    logic [7:0] rdData;
+                   |
+ncvhdl_p: *E,BLCOOR (/users/ugrad2/2012/spring/pooriam/files/112L/questa/design/processor.v,5|19): based literal character not less than the base ('A') [13.4.2].
+    logic [7:0] rdData;
+                    |
+ncvhdl_p: *E,BLCOOR (/users/ugrad2/2012/spring/pooriam/files/112L/questa/design/processor.v,5|20): based literal character not less than the base ('T') [13.4.2].
+    logic [7:0] rdData;
+                     |
+ncvhdl_p: *E,BLCOOR (/users/ugrad2/2012/spring/pooriam/files/112L/questa/design/processor.v,5|21): based literal character not less than the base ('A') [13.4.2].
+    logic [7:0] rdData;
+                      |
+ncvhdl_p: *E,BLCOOR (/users/ugrad2/2012/spring/pooriam/files/112L/questa/design/processor.v,5|22): based literal character not less than the base (';') [13.4.2].
+    logic [7:0] rdData;
+                       |
+ncvhdl_p: *E,BLCOOR (/users/ugrad2/2012/spring/pooriam/files/112L/questa/design/processor.v,5|23): based literal character not less than the base ('LF') [13.4.2].
+endmodule
+ncvhdl_p: *E,UXPEOF (/users/ugrad2/2012/spring/pooriam/files/112L/questa/design/processor.v,9): unexpected end of file.
+	errors: 20, warnings: 0
+TOOL:	ncvhdl(64)	14.10-s007: Exiting on Jan 11, 2016 at 23:43:09 PST  (total: 00:00:00)

@@ -1,0 +1,16 @@
+# do the following command for each new session you are opening.
+source setup.csh
+
+# do the following command if you want to create or remove and create a work library.
+# Once per project would be enough. 
+source pre_compile.csh
+
+# Compiles your design
+source comp_rtl.sh
+
+# Compiles and optimizes your testbench 
+source comp_rtl.sh
+
+# Runs the simulation
+source sim.sh
+

@@ -1,0 +1,12 @@
+ncsim(64): 14.10-s007: (c) Copyright 1995-2014 Cadence Design Systems, Inc.
+ncsim> database -shm ncsim -default
+Created default SHM database ncsim
+ncsim> #probe -create tb_top  -all  -database ncsim -depth all 
+ncsim> probe -create : -all -variables -database ncsim -depth all 
+ncsim: *E,PNOVHD: No VHDL root in design: :.
+ncsim> #probe -shm {:d0} -all -variables -database ncsim  
+ncsim> #run  
+ncsim> run 500ns 
+mem[1] = 34
+Ran until 500 NS + 0
+ncsim> exit

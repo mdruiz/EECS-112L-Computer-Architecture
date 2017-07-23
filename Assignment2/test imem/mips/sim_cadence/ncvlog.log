@@ -1,0 +1,15 @@
+ncvlog(64): 14.10-s007: (c) Copyright 1995-2014 Cadence Design Systems, Inc.
+TOOL:	ncvlog(64)	14.10-s007: Started on Jan 11, 2016 at 23:48:56 PST
+ncvlog
+    -sv
+    -work work
+    -64
+    -update
+    -mess
+    -f ../verif/tb.cfg
+        /users/ugrad2/2012/spring/pooriam/files/112L/questa/verif/tb_top.sv
+
+file: /users/ugrad2/2012/spring/pooriam/files/112L/questa/verif/tb_top.sv
+	module work.tb_top
+		errors: 0, warnings: 0
+TOOL:	ncvlog(64)	14.10-s007: Exiting on Jan 11, 2016 at 23:48:56 PST  (total: 00:00:00)
